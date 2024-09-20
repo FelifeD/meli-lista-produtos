@@ -4,6 +4,12 @@
 Arquivo com a classe e funções python para puxar os dados de produtos da API do mercadolivre (SearchProducts.py)
 Arquivo Jupiter Notebook que utiliza as funções acima e exemplifica uma análise exploratória dos dados <br />
 
+Para facilitar a visualização das respostas pode ser usado o Postman (ferramenta gratuita - https://web.postman.co/workspace/) para testar alguns exemplos de chamada:
+- chamada para busca e IDs de produtos: https://api.mercadolibre.com/sites/MLA/search?q=chromecast&limit=50#json
+- chamada do item por ID: https://api.mercadolibre.com/items/%7BItem_Id%7D
+
+  link da documentação: https://developers.mercadolivre.com.br/pt_br/itens-e-buscas
+
 
 ## Documentação das funções SearchProducts.py 
 
