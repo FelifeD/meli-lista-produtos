@@ -8,7 +8,7 @@ Arquivo Jupiter Notebook que utiliza as funções acima e exemplifica uma análi
 ## Documentação das funções SearchProducts.py 
 
 
-### função getSearchIds(self, termos_buscas):
+### - função getSearchIds(self, termos_buscas):
   Essa função retorna os IDs da lista de termos a se buscar na API <br />
   <br />
   **parâmetros**: <br />
@@ -19,7 +19,7 @@ Arquivo Jupiter Notebook que utiliza as funções acima e exemplifica uma análi
     objeto list com os IDs de produtos da busca<br />
 <br />
 <br />
-### função getProductsDetails(self, IDs_list, attributes):
+### - função getProductsDetails(self, IDs_list, attributes):
   Essa função  usa uma lista de IDs para buscar detalhes desses IDs na API. <br />
   Adicionalmente ela pode buscar valores dentro do objeto "attributes" que é retornado normalmente<br />
   <br />
@@ -33,7 +33,7 @@ Arquivo Jupiter Notebook que utiliza as funções acima e exemplifica uma análi
 
 
     
-### função sendResultsCSV(self, filename):
+### - função sendResultsCSV(self, filename):
   Essa função envia os dados gerados para um arquivo CSV <br />
   <br /> 
   **parâmetros**: <br />
