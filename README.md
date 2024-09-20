@@ -2,18 +2,18 @@
 
 ## Resumo do conteúdo
 Arquivo com a classe e funções python para puxar os dados de produtos da API do mercadolivre (SearchProducts.py)
-Arquivo Jupiter Notebook que utiliza as funções acima e exemplifica uma análise exploratória dos dados
+Arquivo Jupiter Notebook que utiliza as funções acima e exemplifica uma análise exploratória dos dados <br />
 
 
-## Documentação das funções SearchProducts.py
+## Documentação das funções SearchProducts.py 
 
 
 ### função getSearchIds(self, termos_buscas):
-  Essa função retorna os IDs da lista de termos a se buscar na API
-  **parâmetros**:
-    termos_buscas: list
+  Essa função retorna os IDs da lista de termos a se buscar na API <br />
+  **parâmetros**: <br />
+    termos_buscas: list <br />
   
-  **exemplo**: getSearchIds(["Google Home", "Apple TV", "Amazon fire", "Chromecast"])
+  **exemplo**: getSearchIds(["Google Home", "Apple TV", "Amazon fire", "Chromecast"]) <br />
  **retorna**:
     objeto list com os IDs de produtos da busca
 
