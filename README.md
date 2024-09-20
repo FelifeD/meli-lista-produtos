@@ -10,36 +10,37 @@ Arquivo Jupiter Notebook que utiliza as funções acima e exemplifica uma análi
 
 ### função getSearchIds(self, termos_buscas):
   Essa função retorna os IDs da lista de termos a se buscar na API <br />
+  <br />
   **parâmetros**: <br />
     termos_buscas: list <br />
-  
+  <br />
   **exemplo**: getSearchIds(["Google Home", "Apple TV", "Amazon fire", "Chromecast"]) <br />
- **retorna**:
-    objeto list com os IDs de produtos da busca
-
-    
+ **retorna**:<br />
+    objeto list com os IDs de produtos da busca<br />
+<br />
+<br />
 ### função getProductsDetails(self, IDs_list, attributes):
-  Essa função  usa uma lista de IDs para buscar detalhes desses IDs na API. 
-  Adicionalmente ela pode buscar valores dentro do objeto "attributes" que é retornado normalmente
-  
-  **parâmetros**:
-     IDs_list: list
-     attributes: list (opcional)
-  
-  **exemplo**: getProductsDetails(self, ['MLA915561586', 'MLA1141052441'], ["BRAND", "RAM_MEMORY", "STORAGE_CAPACITY"])
-  **retorna**:
-    objeto list com dicionários de cada produto dentro
+  Essa função  usa uma lista de IDs para buscar detalhes desses IDs na API. <br />
+  Adicionalmente ela pode buscar valores dentro do objeto "attributes" que é retornado normalmente<br />
+  <br />
+  **parâmetros**:  <br />
+     IDs_list: list  <br />
+     attributes: list (opcional)  <br />
+  <br />
+  **exemplo**: getProductsDetails(self, ['MLA915561586', 'MLA1141052441'], ["BRAND", "RAM_MEMORY", "STORAGE_CAPACITY"]) <br />
+  **retorna**: <br />
+    objeto list com dicionários de cada produto dentro <br />
 
 
     
 ### função sendResultsCSV(self, filename):
-  Essa função envia os dados gerados para um arquivo CSV
-  
-  **parâmetros**:
-     filename: str
+  Essa função envia os dados gerados para um arquivo CSV <br />
+  <br /> 
+  **parâmetros**: <br />
+     filename: str  <br />
      
   
-  **exemplo**: sendResultsCSV(self, 'produtos.csv')
-  **retorna**:
-    grava um arquivo CSV no storage local
+  **exemplo**: sendResultsCSV(self, 'produtos.csv') <br />
+  **retorna**: <br />
+    grava um arquivo CSV no storage local <br />
     
