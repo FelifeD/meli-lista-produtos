@@ -31,7 +31,8 @@ Arquivo Jupiter Notebook que utiliza as funções acima e exemplifica uma análi
   **retorna**: <br />
     objeto list com dicionários de cada produto dentro <br />
 
-
+<br />
+<br />
     
 ### - função sendResultsCSV(self, filename):
   Essa função envia os dados gerados para um arquivo CSV <br />
