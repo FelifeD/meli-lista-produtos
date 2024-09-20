@@ -44,4 +44,13 @@ Arquivo Jupiter Notebook que utiliza as funções acima e exemplifica uma análi
   **exemplo**: sendResultsCSV(self, 'produtos.csv') <br />
   **retorna**: <br />
     grava um arquivo CSV no storage local <br />
-    
+<br />
+<br />
+
+## Diagrama de alto nível do funcionamento das funções da API
+
+LInk [https://miro.com/app/board/uXjVLcof1UQ=/](https://miro.com/app/board/uXjVLcof1UQ=/?share_link_id=781556096560)
+![meli_retrieve_products_diagrama](https://github.com/user-attachments/assets/9174bb95-36f0-4a90-b525-54e2d5276f2c)
+
+
+
